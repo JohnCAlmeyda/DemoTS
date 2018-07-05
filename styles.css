@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.encabezado, .contenido, .foot, .lateral{
+    padding:1em 2em;
+}
+.contenido, .lateral, .foot{
+    float:left;
+}
+.encabezado{
+    height: 80px;
+}
+.contenido{
+    width: 75%;
+}
+.lateral{
+    width: 25%;
+    background-color: brown;
+    height: 500px;
+}
+.arti{
+    background-color: deepskyblue;
+    height: 100px;
+    margin-bottom: 1em;
+}
+h4{
+    background-color: blueviolet;
+}
+.foot{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    color:white;
+    justify-content: center;
+}
+@media only screen and (max-width:600px){
+    .encabezado{
+        background-color: red; /* CELULARES */
+    }
+} 
+@media only screen and (min-width:600px) and (max-width:768px) {
+    .encabezado{
+        background-color:blue; /* TABLETS */
+    }
+}
+@media only screen and (min-width:768px){
+    .encabezado{
+        background-color: yellow;
+    }
+}
+
+
