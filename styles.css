@@ -35,6 +35,7 @@ h4{
     background-color: black;
     color:white;
     justify-content: center;
+    align-content: flex-end;
 }
 @media only screen and (max-width:600px){
     .encabezado{
